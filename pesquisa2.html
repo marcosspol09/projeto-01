@@ -4,64 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcos V Spolador</title>
-    
-    <style> 
-            /*pesquisas sobre linguagem c++: variaveis,tipos de dados, operadores,loops, e funcoes.
-            #Estuturas iniciais
-            #Estruturas funcionais
-            #Etruturas de Finalização*/
+
+    <style>
         *{
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin: 0px;
             padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            color: #c1daed;
             
         }
-        body{
-            width: 100vw;
-            height: 100vh;
-            background-color: rgb(250, 237, 185);
+
+        body , html{
+            background-image: linear-gradient(to top, #91B4CE 10%, #5F96BF, #337EB7 );
+        }
+
+        header{
+            background-color: #16619b;
+            text-align: center;
+            color: #c1daed;
         }
 
         main{
+            background-color:#1e68a0c1;
             margin: auto;
-            width: 80vw;
-            background-color: rgb(241, 238, 223);
-            border-radius: 10px;
-            padding: 10px;
-        }
-        .tex1{
-            text-align:justify;
+            width: 85vw;
+            text-align: center;
+            text-align: justify;
         }
 
-        main > h1{
-            margin-top: 20px;
-            text-align: center;
-            border: 6px;
+        main h1,h2,h3, p{
+            text-align:center;
+            padding: 20px 40px;
         }
 
-        main > p {
-            margin:30px;
-            
-        }
-        main > .img{
+        main  p {
             text-align: center;
+            text-align: justify;
+            line-height: 1.6em;
         }
+        main > ul >li {
+            text-align: center;
+            text-align: justify;
+            line-height: 2em;
+            padding: 20px 40px;
+        }
+
+        .destak{
+        color: aquamarine;
+        }
+
+        
         
     </style>
 </head>
 <body>
-    <main>
-        <h1>Marcos Vinicius dos Santos Spolador</h1>
+        <header>
+            <h1>Marcos Vinicius Spolador</h1>
+            <p>Trabalho sobre linguagem C++</p>
+        </header>
 
-
-            <p>Essencialmente, um programa C++ consiste de uma ou mais partes chamadas funções. Além disso, um
-                programa em C++ deve definir pelo menos uma função chamada <strong>main</strong>. Esta função marca o ponto de início
-                de execução do programa.
-            </p>
-            
-           <li>Variaveis Em C++</li>
-            <p class="tex1">
-                Uma variável é uma informação que você pode usar dentro de um programa C++ . Esta informação está
+        <main>
+            <div class="tex">
+                <h2>Variaveis na Linguagem C++</h2>
+                <p>
+                    Uma variável é uma informação que você pode usar dentro de um programa C++ . Esta informação está
                 associada com um lugar específico da memória (isso é feito pelo compilador). O nome da variável e o
                 endereço da memória onde a informação está armazenada estão associados. O nome e o endereço não
                 mudam. Mas, o valor da informação pode mudar (o valor do que está dentro da caixa pode mudar, embora o
@@ -83,51 +90,48 @@
                 Estes números são armazenados de uma forma padrão, tal que a mantissa tem apenas um dígito para
                 a esquerda do ponto decimal. Desta forma, 3634.1 é escrito como 3.6341e3, e 0.0000341 é escrito 3.41e5. Note também que a precisão é limitada pela mantissa. Somente os 6 dígitos mais significativos são
                 armazenados. Em Code::Blocks um float ocupa 4 bytes de memória. Há muitos outros tipos ( short, long,
-                double), que serão descritos no futuro. </p>
-
+                double), que serão descritos no futuro.
+                </p>
+            </div>
+            <div class="operadores">
                 <h1>Operadores</h1>
+                <h2>Operadores aritméticos</h2>
+                <p><img src="https://media.licdn.com/dms/image/C5612AQGtoBOU9LgjoA/article-inline_image-shrink_1000_1488/0/1520140733396?e=1722470400&v=beta&t=M02sYq4EcnwomVQhCaBu6nYXojireVE2dqcm7evQD4M" alt="img.Operadores"></p>
 
-                <h3>Operadores aritméticos</h3>
-                    <div class="img">
-                        <img src="https://media.licdn.com/dms/image/C5612AQGtoBOU9LgjoA/article-inline_image-shrink_1000_1488/0/1520140733396?e=1722470400&v=beta&t=M02sYq4EcnwomVQhCaBu6nYXojireVE2dqcm7evQD4M" alt="img.Operadores">
-                                        
-                                        <h3>Operadores Relacionais</h3>
-                        
-                                        <img src="https://media.licdn.com/dms/image/C5612AQHE4RfPQcZPdg/article-inline_image-shrink_1000_1488/0/1520214556263?e=1722470400&v=beta&t=_5ke1nwrCZRMTSPtghbeIFuRX_xeo5StnIBqVfEEUio" alt="operadores-logicos">
-                                        
-                                        <h3>Tipos de dados</h3>
-                        
-                                        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*06DicAY7fe0xSHdw.png" alt="img-dados">
-                    </div>
+                <h2>Operadores Relacionais</h2>
+                <p><img src="https://media.licdn.com/dms/image/C5612AQHE4RfPQcZPdg/article-inline_image-shrink_1000_1488/0/1520214556263?e=1722470400&v=beta&t=_5ke1nwrCZRMTSPtghbeIFuRX_xeo5StnIBqVfEEUio" alt="operadores-logicos"></p>
 
-                <h3>Loops</h>
+                <h2>Tipos de dados</h2>
+                <p><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*06DicAY7fe0xSHdw.png" alt="img-dados"></p>
+            </div>
+
+            <ul>
+                <li>loops</li>
                 <p>Os comandos de loop fazem com que um bloco de código seja repetido até que uma condição seja atendida,
-                    existem 3 tipos de loop em C++:
-                    
-                    <ul>
-                        <li><strong>While:</strong> Executa o loop enquanto a condição for verdadeira.</li>
-                        <li><strong>Do While:</strong> Executa o loop primeiro e depois verifica a condição.</li>
-                        <li><strong>For:</strong> Executa o loop enquanto a condição for verdadeira, porém você pode instanciar as variaveis contadoras dentro da estrutura do loop.</li>
-                    </ul>
-
-                <h2>Função</h2>
+                    existem 3 tipos de loop em C++:</p>
+                <li>Função</li>
                 <p>Uma função é um bloco de código que executa alguma operação. Opcionalmente, uma função pode definir parâmetros de entrada que permitem que os chamadores passem argumentos para a função. Uma função também pode retornar um valor como saída.</p>
-                
-                <img src="https://image.slidesharecdn.com/funes-140530084615-phpapp02/75/C-Funcoes-2-2048.jpg" alt="">
-                
-                <li>Estruturas inicias</li>
 
-                <ul>
-                    <li>loops</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <li>Estruturas iniciais</li>
+                <p>
+                    Essencialmente, um programa C++ consiste de uma ou mais partes chamadas funções. Além disso, um
+                    programa em C++ deve definir pelo menos uma função chamada <strong>main</strong>. Esta função marca o ponto de início de execução do programa.
+                    Programas C++ tem a seguinte estrutura geral:
+
                 
-    </main>
+
+                </p>
+
+                <li>Estruturas funcionais</li>
+
+                <li>Estruturas de Finalização</li>
+
+                <li></li>
+            </ul>
+        </main>
+
+        <footer>
+
+        </footer>
 </body>
 </html>

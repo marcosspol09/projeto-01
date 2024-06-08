@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (min-width:480px) {
+    img{
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    h1{
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -3,70 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-queries.css">
     <title>Marcos V Spolador</title>
-
-    <style>
-        *{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-            color: #c1daed;
-            
-        }
-
-        body , html{
-            background-image: linear-gradient(to top, #91B4CE 10%, #5F96BF, #337EB7 );
-        }
-
-        header{
-            background-color: #16619b;
-            text-align: center;
-            color: #c1daed;
-        }
-
-        main{
-            background-color:#1e68a0c1;
-            margin: auto;
-            width: 85vw;
-            text-align: center;
-            text-align: justify;
-        }
-
-        main h1,h2,h3, p{
-            text-align:center;
-            padding: 20px 40px;
-        }
-
-        main  p {
-            text-align: center;
-            text-align: justify;
-            line-height: 1.6em;
-        }
-        main > ul >li {
-            text-align: center;
-            text-align: justify;
-            line-height: 2em;
-            padding: 20px 40px;
-        }
-
-        .destak{
-        color: aquamarine;
-        }
-
-        
-        
-    </style>
 </head>
 <body>
         <header>
             <h1>Marcos Vinicius Spolador</h1>
-            <p>Trabalho sobre linguagem C++</p>
         </header>
 
         <main>
-            <div class="tex">
-                <h2>Variaveis na Linguagem C++</h2>
+            <div class="tex1">
+                <h2>VARIAVEIS NA LINGUAGEM C++</h2>
                 <p>
                     Uma variável é uma informação que você pode usar dentro de um programa C++ . Esta informação está
                 associada com um lugar específico da memória (isso é feito pelo compilador). O nome da variável e o
@@ -94,44 +42,70 @@
                 </p>
             </div>
             <div class="operadores">
-                <h1>Operadores</h1>
+                <h2>OPERADORES</h2>
                 <h2>Operadores aritméticos</h2>
                 <p><img src="https://media.licdn.com/dms/image/C5612AQGtoBOU9LgjoA/article-inline_image-shrink_1000_1488/0/1520140733396?e=1722470400&v=beta&t=M02sYq4EcnwomVQhCaBu6nYXojireVE2dqcm7evQD4M" alt="img.Operadores"></p>
 
                 <h2>Operadores Relacionais</h2>
-                <p><img src="https://media.licdn.com/dms/image/C5612AQHE4RfPQcZPdg/article-inline_image-shrink_1000_1488/0/1520214556263?e=1722470400&v=beta&t=_5ke1nwrCZRMTSPtghbeIFuRX_xeo5StnIBqVfEEUio" alt="operadores-logicos"></p>
+                <p><img src="https://media.licdn.com/dms/image/C5612AQHE4RfPQcZPdg/article-inline_image-shrink_1000_1488/0/1520214556263?e=1722470400&v=beta&t=_5ke1nwrCZRMTSPtghbeIFuRX_xeo5StnIBqVfEEUio" alt="operadores-logicos" ></p>
 
                 <h2>Tipos de dados</h2>
                 <p><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*06DicAY7fe0xSHdw.png" alt="img-dados"></p>
             </div>
 
             <ul>
-                <li>loops</li>
-                <p>Os comandos de loop fazem com que um bloco de código seja repetido até que uma condição seja atendida,
-                    existem 3 tipos de loop em C++:</p>
-                <li>Função</li>
-                <p>Uma função é um bloco de código que executa alguma operação. Opcionalmente, uma função pode definir parâmetros de entrada que permitem que os chamadores passem argumentos para a função. Uma função também pode retornar um valor como saída.</p>
+                <strong>
+                    <li>LOOPS</li>
+                </strong>
+                <p>
+                    Os comandos de loop fazem com que um bloco de código seja repetido até que uma condição seja atendida, existem 3 tipos de loop em C++: <br>
+                    <strong>For:</strong> (inicialização, incremento, declaração) Este loop chama-se loop infinito porque será executado para sempre (não existindo a condição, ela será sempre considerada verdadeira), a não ser que ele seja interrompido. Para interromper um loop como este usamos o comando <br>
+                    <strong>While:</strong> Executa o loop enquanto a condição for verdadeira.<br>
+                    <strong>Do While:</strong> Executa o loop primeiro e depois verifica a condição.
+                </p>
 
-                <li>Estruturas iniciais</li>
+
+                <li><strong>FUNÇÃO</strong></li>
+                    <p>Uma função é um bloco de código que executa alguma operação. Opcionalmente, uma função pode definir parâmetros de entrada que permitem que os chamadores passem argumentos para a função. Uma função também pode retornar um valor como saída.</p>
+                
+
+                <li><strong>ESTRUTURAS INICIAIS</strong></li>
                 <p>
                     Essencialmente, um programa C++ consiste de uma ou mais partes chamadas funções. Além disso, um
                     programa em C++ deve definir pelo menos uma função chamada <strong>main</strong>. Esta função marca o ponto de início de execução do programa.
-                    Programas C++ tem a seguinte estrutura geral:
+                    Programas C++ tem a seguinte estrutura geral: <br>
 
-                
+                    <strong>
+                        #include <iostream><br>
+                            using namespace std;<br>
+                            int main()<br>
+                            {<br>
+                             cout << "Ola mundo!" << endl;<br>
+                             return 0;<br>
+                            } <br>
+                    </strong>
 
                 </p>
 
-                <li>Estruturas funcionais</li>
+                <li><strong>ESTRUTURAS FUNCIONAIS</strong></li>
+                <p>
+                    Uma estrutura funcional na programação é um estilo de desenvolvimento de software onde o código é organizado em funções que realizam tarefas específicas. Cada função recebe dados de entrada, processa esses dados e retorna um resultado, sem modificar nenhum estado global ou variável fora do seu escopo. Em resumo, a estrutura funcional promove a imutabilidade e o uso de funções puras, o que facilita a compreensão, o teste e a manutenção do código.
+                </p> <br>
 
-                <li>Estruturas de Finalização</li>
+                <li><strong>ESTRUTURAS DE FINALIZAÇÃO</strong></li>
 
-                <li></li>
+                <p>
+                    Basicamente, quando você cria um objeto em C++, você pode executar código no construtor (quando o objeto é criado) e no destrutor (quando o objeto é destruído). O RAII aproveita isso para garantir que os recursos (como memória, arquivos, conexões de rede, etc.) sejam liberados corretamente quando o objeto sai do escopo, mesmo se ocorrerem erros ou exceções.
+                    Por exemplo, se você abrir um arquivo em um objeto, ele será automaticamente fechado quando o objeto sair do escopo, garantindo que você não esqueça de fechá-lo manualmente.
+                    É uma maneira eficaz e segura de gerenciar recursos em C++, porque você não precisa se preocupar com a liberação manual dos recursos, deixando isso para o destrutor do objeto. Isso torna o código mais limpo, mais seguro e mais fácil de entender e manter. <br>
+
+                    Em C++, um objeto é uma instância de uma classe. Uma classe é uma estrutura que define um tipo de dados personalizado, especificando quais dados serão armazenados e quais operações podem ser realizadas com esses dados. Quando você cria um objeto de uma classe, está criando uma cópia dessa estrutura de dados, que pode então ser manipulada e acessada através de métodos e variáveis definidos na classe. Em resumo, um objeto é uma entidade concreta baseada em uma classe, que possui atributos e comportamentos específicos definidos pela classe.
+                </p>
             </ul>
         </main>
 
         <footer>
-
+           <p>Criado por: <a href="https://github.com/marcosspol09?tab=repositories" target="_blank">Marcos V Spolador</a></p> 
         </footer>
 </body>
 </html>

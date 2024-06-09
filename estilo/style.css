@@ -86,6 +86,7 @@ ul{
 
 ul > p{
     padding-left: 30px;
+    text-align: justify;
 }
 
 footer{

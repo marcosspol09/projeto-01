@@ -58,8 +58,8 @@ main h2{
 
 
 
-img{
-    max-width:400px;
+p > img{
+    max-width:320px;
     height: auto;
     padding: 10px;
 }

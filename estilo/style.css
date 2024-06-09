@@ -56,6 +56,20 @@ main h2{
     padding: 20px;
 }
 
+
+
+img{
+    max-width:400px;
+    height: auto;
+    padding: 10px;
+}
+h1{
+    max-width:100%;
+    height: auto;
+}
+
+
+
 .tex1{
     padding: 5%;
     text-align: justify;
